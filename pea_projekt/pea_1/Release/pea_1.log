@@ -1,0 +1,40 @@
+﻿Build started 1/20/2017 8:35:23 PM.
+     1>Project "d:\documents\visual studio 2015\Projects\pea_1\pea_1\pea_1.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : Access to the path 'd:\documents\visual studio 2015\projects\pea_1\release\pea_1.exe' is denied.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Release\pea_1.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\pea_1.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Genetic.cpp Matrix.cpp pea_1.cpp SimAnnealing.cpp Solution.cpp Move.cpp TabuList.cpp TabuSearch.cpp
+         Genetic.cpp
+     1>Genetic.cpp(239): warning C4018: '<': signed/unsigned mismatch
+     1>Genetic.cpp(382): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+         Matrix.cpp
+         pea_1.cpp
+     1>pea_1.cpp(44): warning C4101: 'e': unreferenced local variable
+     1>pea_1.cpp(112): warning C4838: conversion from 'int' to 'double' requires a narrowing conversion
+     1>pea_1.cpp(129): warning C4244: 'initializing': conversion from 'LONGLONG' to 'double', possible loss of data
+     1>pea_1.cpp(157): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+         SimAnnealing.cpp
+     1>SimAnnealing.cpp(64): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>SimAnnealing.cpp(80): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         Solution.cpp
+         Move.cpp
+         TabuList.cpp
+     1>TabuList.cpp(18): warning C4018: '>': signed/unsigned mismatch
+         TabuSearch.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\documents\visual studio 2015\Projects\pea_1\Release\pea_1.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"d:\documents\visual studio 2015\Projects\pea_1\Release\pea_1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\documents\visual studio 2015\Projects\pea_1\Release\pea_1.lib" /MACHINE:X86 /SAFESEH Release\Genetic.obj
+         Release\Matrix.obj
+         Release\pea_1.obj
+         Release\SimAnnealing.obj
+         Release\Solution.obj
+         Release\stdafx.obj
+         Release\Move.obj
+         Release\TabuList.obj
+         Release\TabuSearch.obj
+     1>LINK : fatal error LNK1104: cannot open file 'd:\documents\visual studio 2015\Projects\pea_1\Release\pea_1.exe'
+     1>Done Building Project "d:\documents\visual studio 2015\Projects\pea_1\pea_1\pea_1.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.30
